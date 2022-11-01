@@ -21,7 +21,7 @@ def quick_sort(arr,low,high):
       quick_sort(arr, pi+1, high)
    return arr
 
-
+ 
 input_data = input()
 data = []
 for item in input_data.split(', '):
